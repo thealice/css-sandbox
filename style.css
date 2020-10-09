@@ -33,26 +33,18 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   display:flex;
   border: 10px solid goldenrod;
   height: 100vh;
-  /* align-items: stretch; */
-  align-items: center;
-  /* align-items: flex-end; */
-  /* align-items: flex-start; */
-  /* align-items: baseline; */
-  flex-direction: column;
+  /* align-content only works if we have multiple lines of items. 
+  determines what to do with extra space on cross-axix */
+  /* align-content: space-between; */
+  /* align-content: space-around; */
+  /* align-content: space-evenly; */
+  /* align-content: flex-end; */
+  /* align-content: flex-start; */
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.box1 {
-  font-size: x-small;
-}
-
-.box2 {
-  font-size: xx-large;
-}
-
-.box4 {
-  font-size: medium;
-}
-
-.box7 {
-  font-size: 100px;
+.box {
+  width: 33.33333%;
 }
