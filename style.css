@@ -33,7 +33,19 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   display:flex;
 }
 
-.box {
-  flex: 1;
+.box1 {
+  /* What size item should be in ideal circumstances */
+  /* flex-basis: 400px; */
+  /* How we deal with extra space around the items, 
+  how much space item should take up compared to others */
+  /* flex-grow: 10; */
+  /* How we deal with shrinking space down, how much space to give up */
+  /* flex-shrink: 10; */
+  /* combine these into grow, shrink, basis in that order */
+  flex: 10 5 400px;
+}
+
+.box2 {
+  flex: 1 1 400px;
 }
 
