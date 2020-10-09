@@ -33,18 +33,22 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   display:flex;
   border: 10px solid goldenrod;
   height: 100vh;
-  /* align-content only works if we have multiple lines of items. 
-  determines what to do with extra space on cross-axix */
-  /* align-content: space-between; */
-  /* align-content: space-around; */
-  /* align-content: space-evenly; */
-  /* align-content: flex-end; */
-  /* align-content: flex-start; */
-  align-content: center;
-  justify-content: center;
-  flex-wrap: wrap;
+  align-items: flex-start;
 }
 
 .box {
   width: 33.33333%;
+}
+
+.box2 {
+  padding-bottom: 200px;
+}
+
+.box6 {
+  padding-bottom: 0;
+}
+
+.box9 {
+  padding-bottom: 50px;
+  align-self: flex-end;
 }
