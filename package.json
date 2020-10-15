@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/thealice/flexbox-sandbox#readme",
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1"
   }
 }
